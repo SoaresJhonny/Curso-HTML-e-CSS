@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+
+body {
+    background-image: linear-gradient(to right, #ee855b, #ffffff, #ee855b);
+    
+}
+
+main {
+    background-color: rgb(224, 224, 224);
+    width: 766px;
+    border-radius: 20px 20px 20px 20px;
+    margin: auto;
+    box-shadow: 5px 7px 5px rgba(63, 63, 63, 0.808);
+}
+
+header {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-left: 2px;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    margin-left: 45px;
+    
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: coral;
+}
+
+h1 {
+    font-size: 60px;
+    color: coral;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+
+article {
+    background-color: rgb(70, 70, 70);
+    color: rgb(228, 228, 228);
+    width: 450px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 1px;
+    margin-left: 5px;
+    box-shadow: 5px 7px 5px rgba(114, 114, 114, 0.808);
+    border-radius: 10px 40px;
+}
+
+article > h2 {
+    color: rgb(211, 211, 211);
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px 40px 1px 1px;
+    margin-left: -10px;
+    margin-right: -1px;
+    text-indent: 20px;
+}
+
+article > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 10px;
+    text-indent: 10px;
+}
+
+article > aside {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: coral;
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 195px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(24, 24, 24);
+}
+
+main > footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 746px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#opa {
+    margin-left: 300px;
+    
+}
