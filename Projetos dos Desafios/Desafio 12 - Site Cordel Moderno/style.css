@@ -36,12 +36,7 @@ header h1 {
 #créditos {
     font-family: 'Passion One', sans-serif;
     font-size: 20px;
-    text-decoration: none;
-}
-
-#créditos:hover {
     text-decoration: underline;
-    font-size: 21px;
 }
 
 .paragrafo {
@@ -55,21 +50,24 @@ header h1 {
 #container1 {
     background-image: url(pacote-d012/imagens/background001.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 80vh;
-    background-position: center;
+    background-position: right center;
     display: flex;
     background-attachment: fixed;
     align-items: center;
+    box-shadow: inset 6px 6px 13px 0px rgb(22, 22, 22);
 }
 
 #container2 {
     background-image: url(pacote-d012/imagens/background002.jpg);
     background-size: cover;
     height: 80vh;
-    background-position: center;
+    background-position: right center;
     display: flex;
     background-attachment: fixed;
     align-items: center;
+    box-shadow: inset 6px 6px 13px 0px rgb(36, 36, 36);
 }
 
 
@@ -79,6 +77,7 @@ div.texto_da_imagem {
     text-decoration: none;
     padding: 10px;
     background-size: auto;
+    text-shadow: 3px 1px 0px black;
 }
 
 
@@ -114,5 +113,9 @@ a:hover {
 
     footer {
         font-size: 14px;
+    }
+
+    #container1, #container2 {
+        background-position: center;
     }
 }
